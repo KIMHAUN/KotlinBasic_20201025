@@ -25,5 +25,9 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, "자동완성 토스트", Toast.LENGTH_SHORT).show()
             
         }
+
+        changeTextBtn.setOnClickListener {
+
+        }
     }
 }
