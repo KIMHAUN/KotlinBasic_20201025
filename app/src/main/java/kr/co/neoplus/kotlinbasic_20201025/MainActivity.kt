@@ -13,7 +13,13 @@ class MainActivity : AppCompatActivity() {
         //kt파일이 xml파일을 선택해서 불러온다.
 
         logBtn.setOnClickListener {
+            //debug
             Log.d("메인 화면", "로그 버튼 눌림")
+            //error(빨간색)
+            Log.e("메인화면", "E로 로그 찍어보기")
+        }
+
+        toastBtn.setOnClickListener {
 
 
         }
