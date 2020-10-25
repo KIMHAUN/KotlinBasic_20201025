@@ -3,6 +3,7 @@ package kr.co.neoplus.kotlinbasic_20201025
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -20,6 +21,8 @@ class MainActivity : AppCompatActivity() {
         }
 
         toastBtn.setOnClickListener {
+
+            Toast.makeText(this, "토스트 버튼이 눌림", Toast.LENGTH_SHORT).show()
 
 
         }
