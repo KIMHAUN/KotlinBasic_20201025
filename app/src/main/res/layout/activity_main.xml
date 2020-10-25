@@ -14,10 +14,9 @@
         android:text="로그 찍어보는 버튼"/>
 
     <Button
+        android:id="@+id/logBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="로그찍기"/>
-
-
 
 </LinearLayout>
