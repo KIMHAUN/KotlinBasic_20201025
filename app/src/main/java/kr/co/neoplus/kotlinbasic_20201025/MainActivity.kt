@@ -23,10 +23,10 @@ class MainActivity : AppCompatActivity() {
         toastBtn.setOnClickListener {
             Toast.makeText(this,"토스트 띄우기", Toast.LENGTH_SHORT).show()
             Toast.makeText(this, "자동완성 토스트", Toast.LENGTH_SHORT).show()
-            
         }
 
         changeTextBtn.setOnClickListener {
+            resultTxt.text = "문구 변경 버튼이 눌림"
 
         }
     }
