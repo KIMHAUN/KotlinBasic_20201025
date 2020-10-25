@@ -30,6 +30,17 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+        okBtn.setOnClickListener {
+//            Ctrl + / 해당 줄을 주석을 변경
+
+//            okBtn이 눌리면 >> 1. 뭐라고 입력했는지 조회 2. 그 내용을 텍스트뷰에 반영.
+            val inputContent = contentEdt.text //value
+
+            contentTxt.text = inputContent
+
+
+        }
+
 
     }
 }
